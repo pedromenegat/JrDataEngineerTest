@@ -1,0 +1,39 @@
+Três fontes de dados:
+1- Banco PSQL (Vendas)
+    Host: 34.173.103.16
+    User: junior
+    Password: |?7LXmg+FWL&,2(
+    Port: 5432
+    Database: postgres
+    Tabela: public.venda
+
+2- API (Funcionários)
+    Endpoint: https://us-central1-bix-tecnologia-prd.cloudfunctions.net/api_challenge_junior
+    Você deve passar o identificador do funcionário “id” como parâmetro, sendo este um número de 1 até 9, a APIi então retorna com o nome do funcionário.
+    Não tem autenticação;
+    Exemplos de chamada:
+    https://us-central1-bix-tecnologia-prd.cloudfunctions.net/api_challenge_junior?id=1
+    https://us-central1-bix-tecnologia-prd.cloudfunctions.net/api_challenge_junior?id=6
+
+3- Arquivo parquet (Categoria)
+    Disponível dentro do Google Cloud Storage no link https://storage.googleapis.com/challenge_junior/categoria.parquet
+    Temos um parquet com o identificador da categoria e a descrição da categoria
+    Não tem autenticação
+
+
+Objetivos:
+- Colocar os dados em um DW Postgres
+- Scheduler diário com airflow
+
+
+Passos:
+Uma DAG só.
+Uma task para cada fonte de dados.
+Modelar um DW Postgres para receber os dados
+Para cada fonte de dados:
+    - uma task que irá consultar a fonte e inserir os dados (direto no banco ou num data frame?)
+Então:
+- Criar tabelas
+- Consultar os dados de venda (psql)
+- Pegar os distincs funcionários e consultar a API | Consultar arquivo das categorias
+- Inserir no DW
