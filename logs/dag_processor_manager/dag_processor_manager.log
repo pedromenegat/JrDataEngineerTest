@@ -62,3 +62,2322 @@ File Path                                                                       
 [2022-10-22T19:44:01.371+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
 [2022-10-22T19:49:02.273+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
 [2022-10-22T19:49:02.282+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T19:54:03.246+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T19:54:03.251+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T19:59:03.343+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T19:59:03.347+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:04:04.345+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:04:04.351+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:09:04.417+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:09:04.425+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:14:05.368+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:14:05.373+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:19:06.327+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:19:06.332+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:24:07.241+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:24:07.244+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:29:07.678+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:29:07.684+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:34:08.106+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:34:08.112+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:39:08.411+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:39:08.416+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:44:08.707+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:44:08.711+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:49:09.114+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:49:09.118+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:54:09.514+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:54:09.518+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T20:59:09.879+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T20:59:09.883+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:04:10.193+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:04:10.198+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:09:10.554+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:09:10.560+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:14:10.857+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:14:10.861+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:19:11.564+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:19:11.592+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:24:11.835+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:24:11.840+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:29:12.321+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:29:12.333+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:34:13.291+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:34:13.297+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:39:13.909+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:39:13.918+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:44:14.607+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:44:14.630+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:52:48.479+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:52:48.490+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T21:57:49.418+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T21:57:49.426+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:02:49.870+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:02:49.875+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:07:50.635+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:07:50.639+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:12:50.949+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:12:50.952+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:17:51.242+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:17:51.250+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:22:51.560+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:22:51.564+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:27:51.580+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:27:51.585+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:32:52.171+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:32:52.176+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:37:53.114+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:37:53.143+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:42:54.033+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:42:54.038+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:47:54.617+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:47:54.649+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:52:54.613+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:52:54.645+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T22:57:54.660+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T22:57:54.696+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T23:02:54.902+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:02:54.907+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T23:07:54.999+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:07:55.012+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T23:12:55.164+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:12:55.169+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T23:17:55.710+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:17:55.736+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T23:22:56.370+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:22:56.378+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T23:27:56.985+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:27:56.992+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T23:32:57.758+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:32:57.812+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-10-22T23:37:58.556+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:37:58.737+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-22T23:38:03.912+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.77s           2022-10-22T23:37:59
+================================================================================
+[2022-10-22T23:38:34.609+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.30s           2022-10-22T23:38:30
+================================================================================
+[2022-10-22T23:39:05.167+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.17s           2022-10-22T23:39:01
+================================================================================
+[2022-10-22T23:39:35.670+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.18s           2022-10-22T23:39:31
+================================================================================
+[2022-10-22T23:40:06.214+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-22T23:40:02
+================================================================================
+[2022-10-22T23:40:36.672+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.19s           2022-10-22T23:40:32
+================================================================================
+[2022-10-22T23:41:07.221+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.11s           2022-10-22T23:41:03
+================================================================================
+[2022-10-22T23:41:37.722+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.28s           2022-10-22T23:41:33
+================================================================================
+[2022-10-22T23:42:08.146+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-22T23:42:04
+================================================================================
+[2022-10-22T23:42:38.614+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-22T23:42:34
+================================================================================
+[2022-10-22T23:42:58.835+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:42:58.899+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-22T23:43:09.091+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.22s           2022-10-22T23:43:05
+================================================================================
+[2022-10-22T23:43:39.613+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.16s           2022-10-22T23:43:35
+================================================================================
+[2022-10-22T23:44:10.108+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.11s           2022-10-22T23:44:06
+================================================================================
+[2022-10-22T23:44:40.612+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.22s           2022-10-22T23:44:36
+================================================================================
+[2022-10-22T23:45:11.052+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-22T23:45:07
+================================================================================
+[2022-10-22T23:45:41.542+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-22T23:45:37
+================================================================================
+[2022-10-22T23:46:11.971+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.17s           2022-10-22T23:46:08
+================================================================================
+[2022-10-22T23:46:42.500+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.16s           2022-10-22T23:46:38
+================================================================================
+[2022-10-22T23:47:12.920+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.17s           2022-10-22T23:47:09
+================================================================================
+[2022-10-22T23:47:43.439+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.28s           2022-10-22T23:47:39
+================================================================================
+[2022-10-22T23:47:59.657+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:47:59.702+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-22T23:48:14.003+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.17s           2022-10-22T23:48:10
+================================================================================
+[2022-10-22T23:48:44.562+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-22T23:48:40
+================================================================================
+[2022-10-22T23:49:15.039+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-22T23:49:11
+================================================================================
+[2022-10-22T23:49:45.568+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.31s           2022-10-22T23:49:41
+================================================================================
+[2022-10-22T23:50:15.971+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-22T23:50:12
+================================================================================
+[2022-10-22T23:50:46.456+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.11s           2022-10-22T23:50:42
+================================================================================
+[2022-10-22T23:51:16.918+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-22T23:51:12
+================================================================================
+[2022-10-22T23:51:47.448+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.30s           2022-10-22T23:51:43
+================================================================================
+[2022-10-22T23:52:17.854+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-22T23:52:13
+================================================================================
+[2022-10-22T23:52:48.396+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.16s           2022-10-22T23:52:44
+================================================================================
+[2022-10-22T23:53:00.577+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:53:00.608+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-22T23:53:18.945+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.11s           2022-10-22T23:53:14
+================================================================================
+[2022-10-22T23:53:49.451+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.25s           2022-10-22T23:53:45
+================================================================================
+[2022-10-22T23:54:19.954+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-22T23:54:15
+================================================================================
+[2022-10-22T23:54:50.483+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.30s           2022-10-22T23:54:46
+================================================================================
+[2022-10-22T23:55:20.925+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.20s           2022-10-22T23:55:17
+================================================================================
+[2022-10-22T23:55:51.322+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-22T23:55:47
+================================================================================
+[2022-10-22T23:56:21.858+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.26s           2022-10-22T23:56:17
+================================================================================
+[2022-10-22T23:56:52.405+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.30s           2022-10-22T23:56:48
+================================================================================
+[2022-10-22T23:57:22.929+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.15s           2022-10-22T23:57:18
+================================================================================
+[2022-10-22T23:57:53.419+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.28s           2022-10-22T23:57:49
+================================================================================
+[2022-10-22T23:58:00.675+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-22T23:58:00.784+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-22T23:58:23.867+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.16s           2022-10-22T23:58:19
+================================================================================
+[2022-10-22T23:58:54.378+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.31s           2022-10-22T23:58:50
+================================================================================
+[2022-10-22T23:59:24.824+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.22s           2022-10-22T23:59:20
+================================================================================
+[2022-10-22T23:59:55.430+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.19s           2022-10-22T23:59:51
+================================================================================
+[2022-10-23T00:00:25.918+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-23T00:00:21
+================================================================================
+[2022-10-23T00:00:56.355+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.15s           2022-10-23T00:00:52
+================================================================================
+[2022-10-23T00:01:26.892+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.32s           2022-10-23T00:01:23
+================================================================================
+[2022-10-23T00:01:57.596+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.35s           2022-10-23T00:01:53
+================================================================================
+[2022-10-23T00:02:28.135+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.29s           2022-10-23T00:02:24
+================================================================================
+[2022-10-23T00:02:58.529+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.11s           2022-10-23T00:02:54
+================================================================================
+[2022-10-23T00:03:01.569+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:03:01.648+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:03:29.141+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.13s           2022-10-23T00:03:25
+================================================================================
+[2022-10-23T00:03:59.564+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:03:55
+================================================================================
+[2022-10-23T00:04:30.042+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.11s           2022-10-23T00:04:26
+================================================================================
+[2022-10-23T00:05:00.421+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-23T00:04:56
+================================================================================
+[2022-10-23T00:05:30.811+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:05:26
+================================================================================
+[2022-10-23T00:06:01.132+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-23T00:05:57
+================================================================================
+[2022-10-23T00:06:31.559+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:06:27
+================================================================================
+[2022-10-23T00:07:01.986+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:06:58
+================================================================================
+[2022-10-23T00:07:32.407+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-23T00:07:28
+================================================================================
+[2022-10-23T00:08:01.828+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:08:01.900+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:08:02.946+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.25s           2022-10-23T00:07:58
+================================================================================
+[2022-10-23T00:08:33.469+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.16s           2022-10-23T00:08:29
+================================================================================
+[2022-10-23T00:09:04.006+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-23T00:09:00
+================================================================================
+[2022-10-23T00:09:34.390+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:09:30
+================================================================================
+[2022-10-23T00:10:04.898+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-23T00:10:00
+================================================================================
+[2022-10-23T00:10:35.315+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.30s           2022-10-23T00:10:31
+================================================================================
+[2022-10-23T00:11:05.757+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.18s           2022-10-23T00:11:01
+================================================================================
+[2022-10-23T00:11:36.267+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-23T00:11:32
+================================================================================
+[2022-10-23T00:12:06.809+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.16s           2022-10-23T00:12:02
+================================================================================
+[2022-10-23T00:12:37.241+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.15s           2022-10-23T00:12:33
+================================================================================
+[2022-10-23T00:13:02.622+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:13:02.696+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:13:07.919+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.28s           2022-10-23T00:13:04
+================================================================================
+[2022-10-23T00:13:38.460+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-23T00:13:34
+================================================================================
+[2022-10-23T00:14:09.011+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.21s           2022-10-23T00:14:05
+================================================================================
+[2022-10-23T00:14:39.571+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.16s           2022-10-23T00:14:35
+================================================================================
+[2022-10-23T00:15:10.070+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-23T00:15:06
+================================================================================
+[2022-10-23T00:15:40.596+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.16s           2022-10-23T00:15:36
+================================================================================
+[2022-10-23T00:16:11.190+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.19s           2022-10-23T00:16:07
+================================================================================
+[2022-10-23T00:16:41.727+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.18s           2022-10-23T00:16:37
+================================================================================
+[2022-10-23T00:17:12.259+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.26s           2022-10-23T00:17:08
+================================================================================
+[2022-10-23T00:17:42.682+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-23T00:17:38
+================================================================================
+[2022-10-23T00:18:02.925+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:18:02.985+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:18:13.182+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.15s           2022-10-23T00:18:09
+================================================================================
+[2022-10-23T00:18:43.696+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.18s           2022-10-23T00:18:39
+================================================================================
+[2022-10-23T00:19:14.154+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.15s           2022-10-23T00:19:10
+================================================================================
+[2022-10-23T00:19:44.585+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.15s           2022-10-23T00:19:40
+================================================================================
+[2022-10-23T00:20:15.105+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.15s           2022-10-23T00:20:11
+================================================================================
+[2022-10-23T00:20:45.519+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-23T00:20:41
+================================================================================
+[2022-10-23T00:21:15.921+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.25s           2022-10-23T00:21:12
+================================================================================
+[2022-10-23T00:21:46.467+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.20s           2022-10-23T00:21:42
+================================================================================
+[2022-10-23T00:22:16.882+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:22:12
+================================================================================
+[2022-10-23T00:22:47.133+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-23T00:22:43
+================================================================================
+[2022-10-23T00:23:03.279+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:23:03.305+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:23:17.501+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:23:13
+================================================================================
+[2022-10-23T00:23:47.841+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-23T00:23:43
+================================================================================
+[2022-10-23T00:24:18.083+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:24:14
+================================================================================
+[2022-10-23T00:24:48.363+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:24:44
+================================================================================
+[2022-10-23T00:25:18.674+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:25:14
+================================================================================
+[2022-10-23T00:25:48.958+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:25:44
+================================================================================
+[2022-10-23T00:26:19.223+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:26:15
+================================================================================
+[2022-10-23T00:26:49.496+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:26:45
+================================================================================
+[2022-10-23T00:27:19.782+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.11s           2022-10-23T00:27:15
+================================================================================
+[2022-10-23T00:27:50.076+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:27:46
+================================================================================
+[2022-10-23T00:28:04.201+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:28:04.259+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:28:20.486+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:28:16
+================================================================================
+[2022-10-23T00:28:50.722+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:28:46
+================================================================================
+[2022-10-23T00:29:21.050+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-23T00:29:17
+================================================================================
+[2022-10-23T00:29:51.341+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:29:47
+================================================================================
+[2022-10-23T00:30:21.653+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:30:17
+================================================================================
+[2022-10-23T00:30:51.949+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:30:47
+================================================================================
+[2022-10-23T00:31:22.197+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-23T00:31:18
+================================================================================
+[2022-10-23T00:31:52.476+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:31:48
+================================================================================
+[2022-10-23T00:32:22.831+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:32:18
+================================================================================
+[2022-10-23T00:32:53.091+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.06s           2022-10-23T00:32:49
+================================================================================
+[2022-10-23T00:33:04.205+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:33:04.240+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:33:23.431+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.11s           2022-10-23T00:33:19
+================================================================================
+[2022-10-23T00:33:53.699+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-23T00:33:49
+================================================================================
+[2022-10-23T00:34:24.005+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-23T00:34:20
+================================================================================
+[2022-10-23T00:34:54.238+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:34:50
+================================================================================
+[2022-10-23T00:35:24.530+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:35:20
+================================================================================
+[2022-10-23T00:35:54.780+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.10s           2022-10-23T00:35:50
+================================================================================
+[2022-10-23T00:36:25.055+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:36:21
+================================================================================
+[2022-10-23T00:36:55.347+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.06s           2022-10-23T00:36:51
+================================================================================
+[2022-10-23T00:37:25.619+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:37:21
+================================================================================
+[2022-10-23T00:37:55.872+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:37:51
+================================================================================
+[2022-10-23T00:38:04.937+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:38:04.993+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:38:26.222+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:38:22
+================================================================================
+[2022-10-23T00:38:56.505+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:38:52
+================================================================================
+[2022-10-23T00:39:26.733+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:39:22
+================================================================================
+[2022-10-23T00:39:57.179+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.12s           2022-10-23T00:39:53
+================================================================================
+[2022-10-23T00:40:27.662+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:40:23
+================================================================================
+[2022-10-23T00:40:57.893+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:40:53
+================================================================================
+[2022-10-23T00:41:28.171+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.14s           2022-10-23T00:41:24
+================================================================================
+[2022-10-23T00:41:58.466+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:41:54
+================================================================================
+[2022-10-23T00:42:28.722+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:42:24
+================================================================================
+[2022-10-23T00:42:58.991+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:42:55
+================================================================================
+[2022-10-23T00:43:05.050+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:43:05.106+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:43:29.378+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:43:25
+================================================================================
+[2022-10-23T00:43:59.653+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.06s           2022-10-23T00:43:55
+================================================================================
+[2022-10-23T00:44:29.996+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:44:26
+================================================================================
+[2022-10-23T00:45:00.328+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.13s           2022-10-23T00:44:56
+================================================================================
+[2022-10-23T00:45:30.616+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.09s           2022-10-23T00:45:26
+================================================================================
+[2022-10-23T00:46:00.863+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:45:56
+================================================================================
+[2022-10-23T00:46:31.151+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.07s           2022-10-23T00:46:27
+================================================================================
+[2022-10-23T00:47:01.435+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.06s           2022-10-23T00:46:57
+================================================================================
+[2022-10-23T00:47:31.725+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:47:27
+================================================================================
+[2022-10-23T00:48:01.975+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           0  0.08s           2022-10-23T00:47:58
+================================================================================
+[2022-10-23T00:48:05.071+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:48:05.100+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:48:32.334+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.47s           2022-10-23T00:48:22
+================================================================================
+[2022-10-23T00:49:02.586+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.11s           2022-10-23T00:48:55
+================================================================================
+[2022-10-23T00:49:32.958+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.10s           2022-10-23T00:49:16
+================================================================================
+[2022-10-23T00:50:03.256+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.08s           2022-10-23T00:49:53
+================================================================================
+[2022-10-23T00:50:33.610+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.10s           2022-10-23T00:50:16
+================================================================================
+[2022-10-23T00:51:03.977+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.20s           2022-10-23T00:50:55
+================================================================================
+[2022-10-23T00:51:34.335+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.09s           2022-10-23T00:51:25
+================================================================================
+[2022-10-23T00:52:04.632+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.09s           2022-10-23T00:51:40
+================================================================================
+[2022-10-23T00:52:34.886+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.10s           2022-10-23T00:52:10
+================================================================================
+[2022-10-23T00:53:05.284+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:53:05.300+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:53:05.318+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.14s           2022-10-23T00:52:50
+================================================================================
+[2022-10-23T00:53:35.639+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.14s           2022-10-23T00:53:16
+================================================================================
+[2022-10-23T00:54:06.032+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.10s           2022-10-23T00:54:04
+================================================================================
+[2022-10-23T00:54:36.368+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.09s           2022-10-23T00:54:34
+================================================================================
+[2022-10-23T00:55:06.666+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.12s           2022-10-23T00:55:04
+================================================================================
+[2022-10-23T00:55:37.007+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.09s           2022-10-23T00:55:35
+================================================================================
+[2022-10-23T00:56:07.262+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.10s           2022-10-23T00:55:56
+================================================================================
+[2022-10-23T00:56:37.571+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.09s           2022-10-23T00:56:22
+================================================================================
+[2022-10-23T00:57:07.893+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.10s           2022-10-23T00:56:52
+================================================================================
+[2022-10-23T00:57:38.253+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.14s           2022-10-23T00:57:23
+================================================================================
+[2022-10-23T00:58:05.505+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T00:58:05.539+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T00:58:08.595+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  2.30s           2022-10-23T00:57:42
+================================================================================
+[2022-10-23T00:58:39.035+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.26s           2022-10-23T00:58:12
+================================================================================
+[2022-10-23T00:59:09.483+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.25s           2022-10-23T00:58:43
+================================================================================
+[2022-10-23T00:59:39.857+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.24s           2022-10-23T00:59:13
+================================================================================
+[2022-10-23T01:00:10.391+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.25s           2022-10-23T01:00:03
+================================================================================
+[2022-10-23T01:00:40.906+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.23s           2022-10-23T01:00:33
+================================================================================
+[2022-10-23T01:01:11.317+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.28s           2022-10-23T01:00:44
+================================================================================
+[2022-10-23T01:01:41.859+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.24s           2022-10-23T01:01:14
+================================================================================
+[2022-10-23T01:02:12.242+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.24s           2022-10-23T01:01:45
+================================================================================
+[2022-10-23T01:02:42.744+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.25s           2022-10-23T01:02:15
+================================================================================
+[2022-10-23T01:03:06.111+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T01:03:06.131+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T01:03:13.220+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.30s           2022-10-23T01:02:46
+================================================================================
+[2022-10-23T01:03:43.769+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.24s           2022-10-23T01:03:16
+================================================================================
+[2022-10-23T01:04:14.118+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.25s           2022-10-23T01:03:47
+================================================================================
+[2022-10-23T01:04:44.537+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.26s           2022-10-23T01:04:17
+================================================================================
+[2022-10-23T01:05:15.048+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.24s           2022-10-23T01:04:47
+================================================================================
+[2022-10-23T01:05:45.378+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.22s           2022-10-23T01:05:18
+================================================================================
+[2022-10-23T01:06:15.924+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.23s           2022-10-23T01:05:48
+================================================================================
+[2022-10-23T01:06:46.231+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.22s           2022-10-23T01:06:19
+================================================================================
+[2022-10-23T01:07:16.709+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.22s           2022-10-23T01:06:49
+================================================================================
+[2022-10-23T01:07:47.063+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.32s           2022-10-23T01:07:20
+================================================================================
+[2022-10-23T01:08:06.505+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T01:08:06.537+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T01:08:17.666+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.28s           2022-10-23T01:07:50
+================================================================================
+[2022-10-23T01:08:47.992+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.28s           2022-10-23T01:08:20
+================================================================================
+[2022-10-23T01:09:18.516+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.30s           2022-10-23T01:08:51
+================================================================================
+[2022-10-23T01:09:48.907+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.29s           2022-10-23T01:09:21
+================================================================================
+[2022-10-23T01:10:19.372+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.24s           2022-10-23T01:09:52
+================================================================================
+[2022-10-23T01:10:34.706+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-23T16:08:24.942+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-10-23T16:08:24.947+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-23T16:08:24.948+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-10-23T16:08:24.949+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:08:25.089+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:08:25.293+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sales_dw.py    181  0.07s             0           0
+================================================================================
+[2022-10-23T16:08:55.638+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  1.66s           2022-10-23T16:08:26
+================================================================================
+[2022-10-23T16:09:25.945+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.83s           2022-10-23T16:08:58
+================================================================================
+[2022-10-23T16:09:56.111+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.47s           2022-10-23T16:09:28
+================================================================================
+[2022-10-23T16:10:26.916+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.69s           2022-10-23T16:09:59
+================================================================================
+[2022-10-23T16:10:57.512+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.52s           2022-10-23T16:10:30
+================================================================================
+[2022-10-23T16:11:28.135+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.55s           2022-10-23T16:11:01
+================================================================================
+[2022-10-23T16:11:58.780+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.53s           2022-10-23T16:11:31
+================================================================================
+[2022-10-23T16:12:28.815+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.57s           2022-10-23T16:12:02
+================================================================================
+[2022-10-23T16:12:59.319+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.60s           2022-10-23T16:12:33
+================================================================================
+[2022-10-23T16:13:25.240+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:13:25.292+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:13:29.396+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.43s           2022-10-23T16:13:03
+================================================================================
+[2022-10-23T16:13:59.754+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.26s           2022-10-23T16:13:34
+================================================================================
+[2022-10-23T16:14:30.333+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.39s           2022-10-23T16:14:05
+================================================================================
+[2022-10-23T16:15:01.025+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.38s           2022-10-23T16:14:58
+================================================================================
+[2022-10-23T16:15:31.602+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.32s           2022-10-23T16:15:28
+================================================================================
+[2022-10-23T16:16:01.976+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.27s           2022-10-23T16:15:59
+================================================================================
+[2022-10-23T16:16:32.583+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.32s           2022-10-23T16:16:29
+================================================================================
+[2022-10-23T16:17:02.916+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.25s           2022-10-23T16:17:00
+================================================================================
+[2022-10-23T16:17:33.476+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.37s           2022-10-23T16:17:30
+================================================================================
+[2022-10-23T16:18:03.942+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.41s           2022-10-23T16:17:38
+================================================================================
+[2022-10-23T16:18:25.527+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:18:25.600+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:18:34.005+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.64s           2022-10-23T16:18:09
+================================================================================
+[2022-10-23T16:19:04.484+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.50s           2022-10-23T16:18:46
+================================================================================
+[2022-10-23T16:19:34.829+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.44s           2022-10-23T16:19:17
+================================================================================
+[2022-10-23T16:20:05.175+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.33s           2022-10-23T16:19:48
+================================================================================
+[2022-10-23T16:20:35.908+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.53s           2022-10-23T16:20:18
+================================================================================
+[2022-10-23T16:21:06.410+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.53s           2022-10-23T16:20:49
+================================================================================
+[2022-10-23T16:21:36.564+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.34s           2022-10-23T16:21:35
+================================================================================
+[2022-10-23T16:22:06.582+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.34s           2022-10-23T16:22:06
+================================================================================
+[2022-10-23T16:22:36.808+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.23s           2022-10-23T16:22:36
+================================================================================
+[2022-10-23T16:23:06.972+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py   1031  0.02s             1           0  0.23s           2022-10-23T16:22:36
+================================================================================
+[2022-10-23T16:23:25.696+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:23:25.722+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:23:37.576+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py   1065  0.00s             1           0  0.54s           2022-10-23T16:23:07
+================================================================================
+[2022-10-23T16:24:07.978+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py   1088  0.01s             1           0  0.30s           2022-10-23T16:23:37
+================================================================================
+[2022-10-23T16:24:38.037+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.62s           2022-10-23T16:24:08
+================================================================================
+[2022-10-23T16:25:08.080+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.32s           2022-10-23T16:24:38
+================================================================================
+[2022-10-23T16:25:38.910+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.54s           2022-10-23T16:25:09
+================================================================================
+[2022-10-23T16:26:09.208+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.77s           2022-10-23T16:25:40
+================================================================================
+[2022-10-23T16:26:39.964+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.44s           2022-10-23T16:26:11
+================================================================================
+[2022-10-23T16:27:10.427+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.28s           2022-10-23T16:26:42
+================================================================================
+[2022-10-23T16:27:41.041+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.30s           2022-10-23T16:27:40
+================================================================================
+[2022-10-23T16:28:11.553+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.34s           2022-10-23T16:28:10
+================================================================================
+[2022-10-23T16:28:25.776+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:28:25.809+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:28:41.984+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.26s           2022-10-23T16:28:41
+================================================================================
+[2022-10-23T16:29:12.385+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.22s           2022-10-23T16:29:11
+================================================================================
+[2022-10-23T16:29:42.917+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.28s           2022-10-23T16:29:42
+================================================================================
+[2022-10-23T16:30:13.354+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.32s           2022-10-23T16:29:54
+================================================================================
+[2022-10-23T16:30:43.951+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.43s           2022-10-23T16:30:24
+================================================================================
+[2022-10-23T16:31:14.503+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.39s           2022-10-23T16:30:55
+================================================================================
+[2022-10-23T16:31:44.969+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.30s           2022-10-23T16:31:25
+================================================================================
+[2022-10-23T16:32:15.579+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.36s           2022-10-23T16:31:56
+================================================================================
+[2022-10-23T16:32:46.110+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.58s           2022-10-23T16:32:27
+================================================================================
+[2022-10-23T16:33:16.259+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.40s           2022-10-23T16:32:58
+================================================================================
+[2022-10-23T16:33:25.931+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:33:25.976+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:33:46.280+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.25s           2022-10-23T16:33:28
+================================================================================
+[2022-10-23T16:34:16.896+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.46s           2022-10-23T16:33:58
+================================================================================
+[2022-10-23T16:34:47.491+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.34s           2022-10-23T16:34:29
+================================================================================
+[2022-10-23T16:35:17.936+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.32s           2022-10-23T16:34:59
+================================================================================
+[2022-10-23T16:35:48.576+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.44s           2022-10-23T16:35:30
+================================================================================
+[2022-10-23T16:36:19.103+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.44s           2022-10-23T16:36:01
+================================================================================
+[2022-10-23T16:36:49.766+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.35s           2022-10-23T16:36:31
+================================================================================
+[2022-10-23T16:37:20.197+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.39s           2022-10-23T16:37:02
+================================================================================
+[2022-10-23T16:37:50.911+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.43s           2022-10-23T16:37:32
+================================================================================
+[2022-10-23T16:38:21.300+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.38s           2022-10-23T16:38:03
+================================================================================
+[2022-10-23T16:38:26.434+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:38:26.554+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:38:51.318+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.41s           2022-10-23T16:38:34
+================================================================================
+[2022-10-23T16:39:21.705+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.58s           2022-10-23T16:39:04
+================================================================================
+[2022-10-23T16:39:52.315+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.39s           2022-10-23T16:39:35
+================================================================================
+[2022-10-23T16:40:22.871+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.57s           2022-10-23T16:40:06
+================================================================================
+[2022-10-23T16:40:53.163+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.52s           2022-10-23T16:40:36
+================================================================================
+[2022-10-23T16:41:24.073+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.54s           2022-10-23T16:41:07
+================================================================================
+[2022-10-23T16:41:54.484+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.29s           2022-10-23T16:41:42
+================================================================================
+[2022-10-23T16:42:25.098+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.38s           2022-10-23T16:42:13
+================================================================================
+[2022-10-23T16:42:55.610+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.62s           2022-10-23T16:42:43
+================================================================================
+[2022-10-23T16:43:25.993+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.66s           2022-10-23T16:43:14
+================================================================================
+[2022-10-23T16:43:27.001+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:43:27.064+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:43:56.478+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.27s           2022-10-23T16:43:45
+================================================================================
+[2022-10-23T16:44:27.094+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.49s           2022-10-23T16:44:16
+================================================================================
+[2022-10-23T16:44:57.742+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.51s           2022-10-23T16:44:46
+================================================================================
+[2022-10-23T16:45:28.382+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.52s           2022-10-23T16:45:17
+================================================================================
+[2022-10-23T16:45:58.968+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.33s           2022-10-23T16:45:47
+================================================================================
+[2022-10-23T16:46:29.435+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.25s           2022-10-23T16:46:18
+================================================================================
+[2022-10-23T16:46:59.915+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.43s           2022-10-23T16:46:49
+================================================================================
+[2022-10-23T16:47:30.255+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.32s           2022-10-23T16:47:19
+================================================================================
+[2022-10-23T16:48:00.639+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.14s           2022-10-23T16:47:46
+================================================================================
+[2022-10-23T16:48:27.145+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-10-23T16:48:27.174+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-10-23T16:48:31.254+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.47s           2022-10-23T16:48:24
+================================================================================
+[2022-10-23T16:49:01.941+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.35s           2022-10-23T16:48:54
+================================================================================
+[2022-10-23T16:49:32.527+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.43s           2022-10-23T16:49:28
+================================================================================
+[2022-10-23T16:50:02.910+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           1           0  0.35s           2022-10-23T16:49:59
+================================================================================
+[2022-10-23T16:50:33.287+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.24s           2022-10-23T16:50:08
+================================================================================
+[2022-10-23T16:51:03.718+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.20s           2022-10-23T16:50:38
+================================================================================
+[2022-10-23T16:51:34.247+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.30s           2022-10-23T16:51:09
+================================================================================
+[2022-10-23T16:51:34.372+0000] {manager.py:520} INFO - DAG sales_datawarehouse is missing and will be deactivated.
+[2022-10-23T16:51:34.407+0000] {manager.py:530} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-10-23T16:51:34.414+0000] {manager.py:534} INFO - Deleted DAG sales_datawarehouse in serialized_dag table
+[2022-10-23T16:52:04.963+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.30s           2022-10-23T16:51:50
+================================================================================
+[2022-10-23T16:52:35.552+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sales_dw.py                           0           1  0.38s           2022-10-23T16:52:27
+================================================================================

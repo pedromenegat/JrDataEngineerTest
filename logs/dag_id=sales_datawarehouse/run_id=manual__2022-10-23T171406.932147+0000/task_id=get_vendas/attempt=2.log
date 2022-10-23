@@ -1,0 +1,61 @@
+[2022-10-23T17:16:00.887+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_vendas manual__2022-10-23T17:14:06.932147+00:00 [queued]>
+[2022-10-23T17:16:00.909+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_vendas manual__2022-10-23T17:14:06.932147+00:00 [queued]>
+[2022-10-23T17:16:00.909+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-23T17:16:00.910+0000] {taskinstance.py:1363} INFO - Starting attempt 2 of 3
+[2022-10-23T17:16:00.910+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-23T17:16:00.934+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_vendas> on 2022-10-23 17:14:06.932147+00:00
+[2022-10-23T17:16:00.940+0000] {standard_task_runner.py:54} INFO - Started process 4016 to run task
+[2022-10-23T17:16:00.944+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'get_vendas', 'manual__2022-10-23T17:14:06.932147+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmpme0rqy_p']
+[2022-10-23T17:16:00.946+0000] {standard_task_runner.py:83} INFO - Job 41: Subtask get_vendas
+[2022-10-23T17:16:00.947+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-23T17:16:02.163+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.get_vendas manual__2022-10-23T17:14:06.932147+00:00 [running]> on host 499050b57294
+[2022-10-23T17:16:02.274+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=get_vendas
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-23T17:14:06.932147+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-23T17:14:06.932147+00:00
+[2022-10-23T17:16:02.286+0000] {base.py:71} INFO - Using connection ID 'banco_vendas' for task execution.
+[2022-10-23T17:16:04.276+0000] {python.py:177} INFO - Done. Returned value was:       id_venda  id_funcionario  id_categoria  data_venda  venda
+0            1               1             1  2017-10-01  21636
+1            2               1             4  2018-05-12   3312
+2            3               1             3  2019-02-01  11778
+3            4               1             4  2019-03-11   2554
+4            5               1             3  2018-09-07   4425
+...        ...             ...           ...         ...    ...
+1012      1013               9             1  2017-02-08  10689
+1013      1014               9             3  2018-03-07  15056
+1014      1015               9             6  2019-06-03   3101
+1015      1016               9             4  2020-02-03    204
+1016      1017               9             7  2017-10-06   1275
+
+[1017 rows x 5 columns]
+[2022-10-23T17:16:04.297+0000] {xcom.py:600} ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config.
+[2022-10-23T17:16:04.298+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2385, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 212, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 597, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+[2022-10-23T17:16:04.309+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=sales_datawarehouse, task_id=get_vendas, execution_date=20221023T171406, start_date=20221023T171600, end_date=20221023T171604
+[2022-10-23T17:16:04.326+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 41 for task get_vendas (Object of type DataFrame is not JSON serializable; 4016)
+[2022-10-23T17:16:04.369+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-10-23T17:16:04.409+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

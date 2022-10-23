@@ -1,0 +1,28 @@
+[2022-10-23T16:26:26.937+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.query_vendas manual__2022-10-23T16:26:25.811924+00:00 [queued]>
+[2022-10-23T16:26:26.955+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.query_vendas manual__2022-10-23T16:26:25.811924+00:00 [queued]>
+[2022-10-23T16:26:26.956+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-23T16:26:26.957+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 6
+[2022-10-23T16:26:26.957+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-23T16:26:26.986+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): query_vendas> on 2022-10-23 16:26:25.811924+00:00
+[2022-10-23T16:26:26.993+0000] {standard_task_runner.py:54} INFO - Started process 1233 to run task
+[2022-10-23T16:26:26.999+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'query_vendas', 'manual__2022-10-23T16:26:25.811924+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmpvhux0zd1']
+[2022-10-23T16:26:27.001+0000] {standard_task_runner.py:83} INFO - Job 30: Subtask query_vendas
+[2022-10-23T16:26:27.003+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-23T16:26:27.370+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.query_vendas manual__2022-10-23T16:26:25.811924+00:00 [running]> on host 499050b57294
+[2022-10-23T16:26:27.452+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=query_vendas
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-23T16:26:25.811924+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-23T16:26:25.811924+00:00
+[2022-10-23T16:26:27.465+0000] {base.py:71} INFO - Using connection ID 'banco_vendas' for task execution.
+[2022-10-23T16:26:28.969+0000] {sql.py:315} INFO - Running statement: 
+            SELECT * FROM venda LIMIT 10;
+        , parameters: None
+[2022-10-23T16:26:29.377+0000] {sql.py:324} INFO - Rows affected: 10
+[2022-10-23T16:26:29.590+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=sales_datawarehouse, task_id=query_vendas, execution_date=20221023T162625, start_date=20221023T162626, end_date=20221023T162629
+[2022-10-23T16:26:29.631+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-23T16:26:29.652+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

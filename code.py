@@ -111,8 +111,8 @@ def create_database():
     conn_2.close()
 
 
-create_database()
+#create_database()
 
-# psql_connect()
+psql_connect()
 # api_responses()
 # read_parquet_file()
