@@ -1,0 +1,51 @@
+[2022-10-23T18:32:56.016+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-23T18:32:48.502041+00:00 [queued]>
+[2022-10-23T18:32:56.035+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-23T18:32:48.502041+00:00 [queued]>
+[2022-10-23T18:32:56.035+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-23T18:32:56.036+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2022-10-23T18:32:56.036+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-23T18:32:56.054+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_funcionarios> on 2022-10-23 18:32:48.502041+00:00
+[2022-10-23T18:32:56.058+0000] {standard_task_runner.py:54} INFO - Started process 8687 to run task
+[2022-10-23T18:32:56.061+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'get_funcionarios', 'manual__2022-10-23T18:32:48.502041+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmpbj1jn09d']
+[2022-10-23T18:32:56.062+0000] {standard_task_runner.py:83} INFO - Job 92: Subtask get_funcionarios
+[2022-10-23T18:32:56.064+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-23T18:32:56.672+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-23T18:32:48.502041+00:00 [running]> on host 499050b57294
+[2022-10-23T18:32:56.759+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=get_funcionarios
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-23T18:32:48.502041+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-23T18:32:48.502041+00:00
+[2022-10-23T18:32:56.771+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.772+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.774+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.775+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.776+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.776+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.777+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.777+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.777+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.778+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.778+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.778+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.779+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.779+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.780+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.780+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.780+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.781+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.781+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.782+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.783+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.783+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.784+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.784+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.785+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.785+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.785+0000] {logging_mixin.py:117} INFO - [1, 5, 8, 4, 3, 2, 7, 6, 9]
+[2022-10-23T18:32:56.786+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-23T18:32:56.795+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=sales_datawarehouse, task_id=get_funcionarios, execution_date=20221023T183248, start_date=20221023T183256, end_date=20221023T183256
+[2022-10-23T18:32:56.836+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-23T18:32:56.914+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -22,11 +22,10 @@ def get_vendas(ti):
     df_vendas = hook.get_pandas_df("SELECT * FROM venda")
     ids_funcionarios = json.dumps(df_vendas.id_funcionario.unique().tolist())
     ti.xcom_push(key='ids_funcionarios', value=ids_funcionarios)
-    #return df_vendas
 
 def get_funcionarios(ti):
-    ids_funcionarios = ti.xcom_pull(task_ids="get_vendas", key="ids_funcionarios")
-    '''
+    ids_funcionarios = json.loads(ti.xcom_pull(task_ids="get_vendas", key="ids_funcionarios"))
+
     funcionarios = []
     for id in ids_funcionarios:
         response = requests.get(
@@ -35,9 +34,12 @@ def get_funcionarios(ti):
             "id": id,
             "nome": response.text
         })
-    print(pd.DataFrame(funcionarios))
-    '''
-    print(ids_funcionarios)
+    #print(pd.DataFrame(funcionarios))
+
+def get_categorias():
+    categorias = pd.read_parquet("https://storage.googleapis.com/challenge_junior/categoria.parquet")
+    print(categorias)
+    print(type(categorias))
 
 with DAG(
         dag_id='sales_datawarehouse',
@@ -83,4 +85,9 @@ with DAG(
         python_callable=get_funcionarios
     )
 
-    task1 >> task2 >> task3
+    task4 = PythonOperator(
+        task_id='get_categorias',
+        python_callable=get_categorias
+    )
+
+    task1 >> task2 >> [task3,task4]

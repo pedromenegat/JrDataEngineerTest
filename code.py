@@ -1,3 +1,5 @@
+from google.cloud import storage
+from google.cloud import bigquery
 import psycopg2
 from psycopg2 import sql
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
@@ -110,9 +112,13 @@ def create_database():
     conn.close()
     conn_2.close()
 
+def google_file():
+    arq = pd.read_parquet("https://storage.googleapis.com/challenge_junior/categoria.parquet")
+    print(arq)
 
 #create_database()
-
-psql_connect()
+#psql_connect()
 # api_responses()
 # read_parquet_file()
+
+google_file()
