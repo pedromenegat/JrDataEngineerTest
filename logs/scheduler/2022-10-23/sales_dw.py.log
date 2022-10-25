@@ -10198,3 +10198,157 @@ airflow.exceptions.AirflowException: `python_callable` param must be callable
 [2022-10-23T22:08:49.330+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:08:49.329+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-23T22:08:49.361+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:08:49.361+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
 [2022-10-23T22:08:49.390+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.460 seconds
+[2022-10-23T22:09:19.607+0000] {processor.py:156} INFO - Started process (PID=3908) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:09:19.608+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:09:19.609+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:09:19.609+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:09:19.966+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:09:20.008+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:09:20.006+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:09:20.038+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:09:20.038+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:09:20.061+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.458 seconds
+[2022-10-23T22:09:50.283+0000] {processor.py:156} INFO - Started process (PID=3939) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:09:50.284+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:09:50.285+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:09:50.285+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:09:50.711+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:09:50.758+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:09:50.758+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:09:50.815+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:09:50.815+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:09:50.850+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.572 seconds
+[2022-10-23T22:10:21.033+0000] {processor.py:156} INFO - Started process (PID=3965) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:10:21.034+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:10:21.035+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:10:21.035+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:10:21.402+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:10:21.447+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:10:21.447+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:10:21.481+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:10:21.480+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:10:21.506+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.477 seconds
+[2022-10-23T22:10:51.724+0000] {processor.py:156} INFO - Started process (PID=3998) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:10:51.725+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:10:51.726+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:10:51.726+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:10:52.315+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:10:52.394+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:10:52.393+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:10:52.468+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:10:52.468+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:10:52.510+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.792 seconds
+[2022-10-23T22:11:22.597+0000] {processor.py:156} INFO - Started process (PID=4023) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:11:22.598+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:11:22.600+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:11:22.599+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:11:23.210+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:11:23.280+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:11:23.280+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:11:23.337+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:11:23.336+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:11:23.380+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.796 seconds
+[2022-10-23T22:11:53.675+0000] {processor.py:156} INFO - Started process (PID=4047) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:11:53.677+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:11:53.678+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:11:53.678+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:11:54.263+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:11:54.328+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:11:54.327+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:11:54.376+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:11:54.376+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:11:54.412+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.745 seconds
+[2022-10-23T22:12:24.712+0000] {processor.py:156} INFO - Started process (PID=4080) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:12:24.714+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:12:24.722+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:12:24.722+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:12:25.744+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:12:25.940+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:12:25.931+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:12:26.065+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:12:26.064+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:12:26.145+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 1.448 seconds
+[2022-10-23T22:12:56.507+0000] {processor.py:156} INFO - Started process (PID=4104) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:12:56.509+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:12:56.511+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:12:56.510+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:12:57.620+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:12:57.739+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:12:57.737+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:12:57.840+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:12:57.840+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:12:57.912+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 1.415 seconds
+[2022-10-23T22:13:28.222+0000] {processor.py:156} INFO - Started process (PID=4128) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:13:28.223+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:13:28.224+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:13:28.224+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:13:28.719+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:13:28.776+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:13:28.776+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:13:28.822+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:13:28.822+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:13:28.857+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.639 seconds
+[2022-10-23T22:13:58.969+0000] {processor.py:156} INFO - Started process (PID=4161) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:13:58.970+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:13:58.971+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:13:58.971+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:13:59.323+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:13:59.366+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:13:59.366+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:13:59.397+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:13:59.396+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:13:59.425+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.459 seconds
+[2022-10-23T22:14:29.644+0000] {processor.py:156} INFO - Started process (PID=4185) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:14:29.645+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:14:29.646+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:14:29.646+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:14:29.999+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:14:30.051+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:14:30.051+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:14:30.083+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:14:30.083+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:14:30.108+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.469 seconds
+[2022-10-23T22:15:00.332+0000] {processor.py:156} INFO - Started process (PID=4218) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:15:00.333+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:15:00.334+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:15:00.334+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:15:00.692+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:15:00.737+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:15:00.736+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:15:00.777+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:15:00.777+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:15:00.809+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.480 seconds
+[2022-10-23T22:15:31.044+0000] {processor.py:156} INFO - Started process (PID=4251) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:15:31.045+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:15:31.046+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:15:31.045+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:15:31.392+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:15:31.432+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:15:31.432+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:15:31.464+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:15:31.464+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:15:31.490+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.449 seconds
+[2022-10-23T22:16:01.704+0000] {processor.py:156} INFO - Started process (PID=4275) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:16:01.705+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:16:01.706+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:16:01.706+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:16:02.088+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:16:02.130+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:16:02.129+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:16:02.161+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:16:02.161+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:16:02.190+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.489 seconds
+[2022-10-23T22:16:32.411+0000] {processor.py:156} INFO - Started process (PID=4308) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:16:32.412+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:16:32.413+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:16:32.413+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:16:32.753+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:16:32.795+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:16:32.795+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:16:32.827+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:16:32.826+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:16:32.852+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.444 seconds
+[2022-10-23T22:17:03.070+0000] {processor.py:156} INFO - Started process (PID=4341) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:17:03.071+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:17:03.073+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:17:03.073+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:17:03.708+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:17:03.811+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:17:03.810+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:17:03.915+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:17:03.915+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:17:04.019+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.954 seconds
+[2022-10-23T22:17:34.296+0000] {processor.py:156} INFO - Started process (PID=4366) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:17:34.298+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:17:34.300+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:17:34.300+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:17:34.830+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:17:34.887+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:17:34.887+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:17:34.933+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:17:34.933+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:17:34.967+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.679 seconds
+[2022-10-23T22:18:05.096+0000] {processor.py:156} INFO - Started process (PID=4399) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:18:05.097+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:18:05.098+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:18:05.098+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:18:05.760+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:18:05.854+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:18:05.854+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:18:05.930+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:18:05.929+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:18:05.982+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.895 seconds
+[2022-10-23T22:18:36.260+0000] {processor.py:156} INFO - Started process (PID=4423) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:18:36.262+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:18:36.263+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:18:36.263+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:18:36.755+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:18:36.811+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:18:36.811+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:18:36.853+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:18:36.852+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:18:36.885+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.630 seconds
+[2022-10-23T22:19:07.176+0000] {processor.py:156} INFO - Started process (PID=4448) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:19:07.178+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:19:07.180+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:19:07.180+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:19:07.854+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:19:07.945+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:19:07.944+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:19:08.022+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:19:08.022+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:19:08.081+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.913 seconds
+[2022-10-23T22:19:38.343+0000] {processor.py:156} INFO - Started process (PID=4481) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:19:38.345+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:19:38.346+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:19:38.346+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:19:38.855+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:19:38.911+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:19:38.911+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:19:38.958+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:19:38.958+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:19:38.992+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.654 seconds
+[2022-10-23T22:20:09.225+0000] {processor.py:156} INFO - Started process (PID=4505) to work on /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:20:09.226+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/sales_dw.py for tasks to queue
+[2022-10-23T22:20:09.227+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:20:09.227+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:20:09.580+0000] {processor.py:768} INFO - DAG(s) dict_keys(['sales_datawarehouse']) retrieved from /opt/airflow/dags/sales_dw.py
+[2022-10-23T22:20:09.621+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:20:09.621+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-23T22:20:09.651+0000] {logging_mixin.py:117} INFO - [2022-10-23T22:20:09.651+0000] {dag.py:3328} INFO - Setting next_dagrun for sales_datawarehouse to 2022-10-23T00:00:00+00:00, run_after=2022-10-24T00:00:00+00:00
+[2022-10-23T22:20:09.680+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/sales_dw.py took 0.458 seconds

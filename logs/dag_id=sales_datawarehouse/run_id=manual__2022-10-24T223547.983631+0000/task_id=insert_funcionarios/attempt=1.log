@@ -1,0 +1,88 @@
+[2022-10-24T22:36:21.935+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.insert_funcionarios manual__2022-10-24T22:35:47.983631+00:00 [queued]>
+[2022-10-24T22:36:21.958+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.insert_funcionarios manual__2022-10-24T22:35:47.983631+00:00 [queued]>
+[2022-10-24T22:36:21.958+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T22:36:21.959+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2022-10-24T22:36:21.960+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T22:36:21.993+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): insert_funcionarios> on 2022-10-24 22:35:47.983631+00:00
+[2022-10-24T22:36:22.000+0000] {standard_task_runner.py:54} INFO - Started process 25792 to run task
+[2022-10-24T22:36:22.006+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'insert_funcionarios', 'manual__2022-10-24T22:35:47.983631+00:00', '--job-id', '496', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmpfgsg9y9h']
+[2022-10-24T22:36:22.009+0000] {standard_task_runner.py:83} INFO - Job 496: Subtask insert_funcionarios
+[2022-10-24T22:36:22.010+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-24T22:36:23.184+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.insert_funcionarios manual__2022-10-24T22:35:47.983631+00:00 [running]> on host 83cd0ab98720
+[2022-10-24T22:36:23.329+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=insert_funcionarios
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-24T22:35:47.983631+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-24T22:35:47.983631+00:00
+[2022-10-24T22:36:23.507+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1783, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 957, in do_executemany
+    **kwargs
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/extras.py", line 1270, in execute_values
+    cur.execute(b''.join(parts))
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "funcionarios_pkey"
+DETAIL:  Key (id_funcionario)=(1) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/sales_dw.py", line 57, in insert_funcionarios
+    funcionarios_df.to_sql('funcionarios', engine, if_exists='append', index=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 2882, in to_sql
+    method=method,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 728, in to_sql
+    **engine_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1770, in to_sql
+    **engine_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1350, in insert_records
+    raise err
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1340, in insert_records
+    table.insert(chunksize=chunksize, method=method)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 967, in insert
+    exec_insert(conn, keys, chunk_iter)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 882, in _execute_insert
+    conn.execute(self.table.insert(), data)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1289, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 326, in _execute_on_connection
+    self, multiparams, params, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1491, in _execute_clauseelement
+    cache_hit=cache_hit,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2027, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1783, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 957, in do_executemany
+    **kwargs
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/extras.py", line 1270, in execute_values
+    cur.execute(b''.join(parts))
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "funcionarios_pkey"
+DETAIL:  Key (id_funcionario)=(1) already exists.
+
+[SQL: INSERT INTO funcionarios (id_funcionario, nome_funcionario) VALUES (%(id_funcionario)s, %(nome_funcionario)s)]
+[parameters: ({'id_funcionario': 1, 'nome_funcionario': 'Rob Carsson'}, {'id_funcionario': 5, 'nome_funcionario': 'Ingrid Hendrix'}, {'id_funcionario': 8, 'nome_funcionario': 'Helen Brolin'}, {'id_funcionario': 4, 'nome_funcionario': 'Leif Shine'}, {'id_funcionario': 3, 'nome_funcionario': 'Tom Lindwall'}, {'id_funcionario': 2, 'nome_funcionario': 'Eli Preston'}, {'id_funcionario': 7, 'nome_funcionario': 'Rock Rollman'}, {'id_funcionario': 6, 'nome_funcionario': 'Lennart Skoglund'}, {'id_funcionario': 9, 'nome_funcionario': 'Joan Callins'})]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2022-10-24T22:36:23.545+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=sales_datawarehouse, task_id=insert_funcionarios, execution_date=20221024T223547, start_date=20221024T223621, end_date=20221024T223623
+[2022-10-24T22:36:23.583+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 496 for task insert_funcionarios ((psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "funcionarios_pkey"
+DETAIL:  Key (id_funcionario)=(1) already exists.
+
+[SQL: INSERT INTO funcionarios (id_funcionario, nome_funcionario) VALUES (%(id_funcionario)s, %(nome_funcionario)s)]
+[parameters: ({'id_funcionario': 1, 'nome_funcionario': 'Rob Carsson'}, {'id_funcionario': 5, 'nome_funcionario': 'Ingrid Hendrix'}, {'id_funcionario': 8, 'nome_funcionario': 'Helen Brolin'}, {'id_funcionario': 4, 'nome_funcionario': 'Leif Shine'}, {'id_funcionario': 3, 'nome_funcionario': 'Tom Lindwall'}, {'id_funcionario': 2, 'nome_funcionario': 'Eli Preston'}, {'id_funcionario': 7, 'nome_funcionario': 'Rock Rollman'}, {'id_funcionario': 6, 'nome_funcionario': 'Lennart Skoglund'}, {'id_funcionario': 9, 'nome_funcionario': 'Joan Callins'})]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 25792)
+[2022-10-24T22:36:23.623+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-10-24T22:36:23.712+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

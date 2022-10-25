@@ -1,0 +1,43 @@
+[2022-10-24T21:16:18.175+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.insert_vendas manual__2022-10-24T21:15:42.491122+00:00 [queued]>
+[2022-10-24T21:16:18.196+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.insert_vendas manual__2022-10-24T21:15:42.491122+00:00 [queued]>
+[2022-10-24T21:16:18.197+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T21:16:18.198+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2022-10-24T21:16:18.198+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T21:16:18.224+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): insert_vendas> on 2022-10-24 21:15:42.491122+00:00
+[2022-10-24T21:16:18.231+0000] {standard_task_runner.py:54} INFO - Started process 20643 to run task
+[2022-10-24T21:16:18.236+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'insert_vendas', 'manual__2022-10-24T21:15:42.491122+00:00', '--job-id', '331', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmp9pxt5kw8']
+[2022-10-24T21:16:18.238+0000] {standard_task_runner.py:83} INFO - Job 331: Subtask insert_vendas
+[2022-10-24T21:16:18.239+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-24T21:16:18.943+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.insert_vendas manual__2022-10-24T21:15:42.491122+00:00 [running]> on host 83cd0ab98720
+[2022-10-24T21:16:19.027+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=insert_vendas
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-24T21:15:42.491122+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-24T21:15:42.491122+00:00
+[2022-10-24T21:16:19.140+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/sales_dw.py", line 48, in teste_xcom
+    vendas_df.to_sql('vendas', engine)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 2882, in to_sql
+    method=method,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 728, in to_sql
+    **engine_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1758, in to_sql
+    dtype=dtype,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 1650, in prep_table
+    table.create()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/sql.py", line 858, in create
+    raise ValueError(f"Table '{self.name}' already exists.")
+ValueError: Table 'vendas' already exists.
+[2022-10-24T21:16:19.159+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=sales_datawarehouse, task_id=insert_vendas, execution_date=20221024T211542, start_date=20221024T211618, end_date=20221024T211619
+[2022-10-24T21:16:19.178+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 331 for task insert_vendas (Table 'vendas' already exists.; 20643)
+[2022-10-24T21:16:19.211+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-10-24T21:16:19.236+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

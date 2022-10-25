@@ -1,0 +1,34 @@
+[2022-10-24T21:32:52.461+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.insert_vendas manual__2022-10-24T21:28:50.432837+00:00 [queued]>
+[2022-10-24T21:32:52.477+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.insert_vendas manual__2022-10-24T21:28:50.432837+00:00 [queued]>
+[2022-10-24T21:32:52.478+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T21:32:52.479+0000] {taskinstance.py:1363} INFO - Starting attempt 3 of 4
+[2022-10-24T21:32:52.480+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T21:32:52.501+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): insert_vendas> on 2022-10-24 21:28:50.432837+00:00
+[2022-10-24T21:32:52.507+0000] {standard_task_runner.py:54} INFO - Started process 21801 to run task
+[2022-10-24T21:32:52.511+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'insert_vendas', 'manual__2022-10-24T21:28:50.432837+00:00', '--job-id', '387', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmpu5j421ei']
+[2022-10-24T21:32:52.513+0000] {standard_task_runner.py:83} INFO - Job 387: Subtask insert_vendas
+[2022-10-24T21:32:52.514+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-24T21:32:53.417+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.insert_vendas manual__2022-10-24T21:28:50.432837+00:00 [running]> on host 83cd0ab98720
+[2022-10-24T21:32:53.527+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=insert_vendas
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-24T21:28:50.432837+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-24T21:28:50.432837+00:00
+[2022-10-24T21:32:53.553+0000] {logging_mixin.py:117} INFO -    id_funcionario  nome_funcionario
+0               1       Rob Carsson
+1               5    Ingrid Hendrix
+2               8      Helen Brolin
+3               4        Leif Shine
+4               3      Tom Lindwall
+5               2       Eli Preston
+6               7      Rock Rollman
+7               6  Lennart Skoglund
+8               9      Joan Callins
+[2022-10-24T21:32:53.712+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-24T21:32:53.739+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=sales_datawarehouse, task_id=insert_vendas, execution_date=20221024T212850, start_date=20221024T213252, end_date=20221024T213253
+[2022-10-24T21:32:53.809+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-24T21:32:53.857+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

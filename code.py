@@ -18,7 +18,7 @@ def psql_connect():
     )
 
     cur = conn.cursor()
-    cur.execute("SELECT * FROM venda LIMIT 10;")
+    cur.execute("SELECT * FROM venda limit 10;")
     dados = cur.fetchall()
     colnames = [desc[0] for desc in cur.description]
 
@@ -117,8 +117,8 @@ def google_file():
     print(arq)
 
 #create_database()
-#psql_connect()
+psql_connect()
 # api_responses()
 # read_parquet_file()
 
-google_file()
+#google_file()

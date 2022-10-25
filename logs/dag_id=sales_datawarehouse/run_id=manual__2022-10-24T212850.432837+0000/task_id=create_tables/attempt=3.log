@@ -1,0 +1,24 @@
+[2022-10-24T21:39:31.257+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.create_tables manual__2022-10-24T21:28:50.432837+00:00 [queued]>
+[2022-10-24T21:39:31.272+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.create_tables manual__2022-10-24T21:28:50.432837+00:00 [queued]>
+[2022-10-24T21:39:31.273+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T21:39:31.275+0000] {taskinstance.py:1363} INFO - Starting attempt 3 of 4
+[2022-10-24T21:39:31.275+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-24T21:39:31.296+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_tables> on 2022-10-24 21:28:50.432837+00:00
+[2022-10-24T21:39:31.304+0000] {standard_task_runner.py:54} INFO - Started process 22188 to run task
+[2022-10-24T21:39:31.308+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'create_tables', 'manual__2022-10-24T21:28:50.432837+00:00', '--job-id', '391', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmppdoe3f78']
+[2022-10-24T21:39:31.310+0000] {standard_task_runner.py:83} INFO - Job 391: Subtask create_tables
+[2022-10-24T21:39:31.311+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-24T21:39:32.967+0000] {dagbag.py:330} ERROR - Failed to import: /opt/***/dags/sales_dw.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sales_dw.py", line 140, in <module>
+    task1 >> task2 >> [task3,task4] >> [task5, task6] >> task7
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2022-10-24T21:39:32.979+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 391 for task create_tables (Dag 'sales_datawarehouse' could not be found; either it does not exist or it failed to parse.; 22188)
+[2022-10-24T21:39:33.008+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-10-24T21:39:33.063+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
