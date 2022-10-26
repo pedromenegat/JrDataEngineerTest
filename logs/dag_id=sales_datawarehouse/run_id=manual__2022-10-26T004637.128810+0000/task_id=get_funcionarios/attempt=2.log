@@ -1,0 +1,24 @@
+[2022-10-26T00:49:14.104+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-26T00:46:37.128810+00:00 [queued]>
+[2022-10-26T00:49:14.136+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-26T00:46:37.128810+00:00 [queued]>
+[2022-10-26T00:49:14.137+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-26T00:49:14.138+0000] {taskinstance.py:1363} INFO - Starting attempt 2 of 3
+[2022-10-26T00:49:14.139+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-26T00:49:14.193+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_funcionarios> on 2022-10-26 00:46:37.128810+00:00
+[2022-10-26T00:49:14.217+0000] {standard_task_runner.py:54} INFO - Started process 4379 to run task
+[2022-10-26T00:49:14.223+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'get_funcionarios', 'manual__2022-10-26T00:46:37.128810+00:00', '--job-id', '661', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmp351xiq6c']
+[2022-10-26T00:49:14.225+0000] {standard_task_runner.py:83} INFO - Job 661: Subtask get_funcionarios
+[2022-10-26T00:49:14.227+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-26T00:49:15.836+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-26T00:46:37.128810+00:00 [running]> on host 83cd0ab98720
+[2022-10-26T00:49:16.112+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=get_funcionarios
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-26T00:46:37.128810+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-26T00:46:37.128810+00:00
+[2022-10-26T00:49:39.323+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-26T00:49:39.377+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=sales_datawarehouse, task_id=get_funcionarios, execution_date=20221026T004637, start_date=20221026T004914, end_date=20221026T004939
+[2022-10-26T00:49:39.559+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-26T00:49:39.654+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

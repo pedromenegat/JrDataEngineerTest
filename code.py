@@ -117,8 +117,8 @@ def google_file():
     print(arq)
 
 #create_database()
-psql_connect()
-# api_responses()
+#psql_connect()
+api_responses()
 # read_parquet_file()
 
 #google_file()

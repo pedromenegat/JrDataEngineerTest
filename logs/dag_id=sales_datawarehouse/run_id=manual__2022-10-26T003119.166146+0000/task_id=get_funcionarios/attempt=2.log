@@ -1,0 +1,67 @@
+[2022-10-26T00:34:23.563+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-26T00:31:19.166146+00:00 [queued]>
+[2022-10-26T00:34:23.587+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-26T00:31:19.166146+00:00 [queued]>
+[2022-10-26T00:34:23.588+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-26T00:34:23.589+0000] {taskinstance.py:1363} INFO - Starting attempt 2 of 3
+[2022-10-26T00:34:23.591+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-26T00:34:23.627+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_funcionarios> on 2022-10-26 00:31:19.166146+00:00
+[2022-10-26T00:34:23.634+0000] {standard_task_runner.py:54} INFO - Started process 3347 to run task
+[2022-10-26T00:34:23.643+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'get_funcionarios', 'manual__2022-10-26T00:31:19.166146+00:00', '--job-id', '590', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmp5hykd1hr']
+[2022-10-26T00:34:23.646+0000] {standard_task_runner.py:83} INFO - Job 590: Subtask get_funcionarios
+[2022-10-26T00:34:23.648+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-26T00:34:24.675+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.get_funcionarios manual__2022-10-26T00:31:19.166146+00:00 [running]> on host 83cd0ab98720
+[2022-10-26T00:34:24.992+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=get_funcionarios
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-26T00:31:19.166146+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-26T00:31:19.166146+00:00
+[2022-10-26T00:34:43.934+0000] {local_task_job.py:228} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2022-10-26T00:34:43.958+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 3347. PIDs of all processes in the group: [3347]
+[2022-10-26T00:34:43.959+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 3347
+[2022-10-26T00:34:43.960+0000] {taskinstance.py:1562} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-10-26T00:34:43.974+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/sales_dw.py", line 37, in get_funcionarios
+    "https://us-central1-bix-tecnologia-prd.cloudfunctions.net/api_challenge_junior?id=" + str(id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/adapters.py", line 499, in send
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/airflow/.local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.7/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.7/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.7/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1564, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-10-26T00:34:43.998+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=sales_datawarehouse, task_id=get_funcionarios, execution_date=20221026T003119, start_date=20221026T003423, end_date=20221026T003443
+[2022-10-26T00:34:44.019+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 590 for task get_funcionarios (Task received SIGTERM signal; 3347)
+[2022-10-26T00:34:44.052+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=3347, status='terminated', exitcode=1, started='00:34:23') (3347) terminated with exit code 1

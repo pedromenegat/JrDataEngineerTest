@@ -1,0 +1,24 @@
+[2022-10-26T01:15:36.833+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_categorias manual__2022-10-26T00:49:05.987248+00:00 [queued]>
+[2022-10-26T01:15:36.859+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.get_categorias manual__2022-10-26T00:49:05.987248+00:00 [queued]>
+[2022-10-26T01:15:36.860+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-26T01:15:36.861+0000] {taskinstance.py:1363} INFO - Starting attempt 3 of 4
+[2022-10-26T01:15:36.862+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-26T01:15:36.900+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_categorias> on 2022-10-26 00:49:05.987248+00:00
+[2022-10-26T01:15:36.911+0000] {standard_task_runner.py:54} INFO - Started process 5907 to run task
+[2022-10-26T01:15:36.918+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'get_categorias', 'manual__2022-10-26T00:49:05.987248+00:00', '--job-id', '682', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmpbkpb4oc6']
+[2022-10-26T01:15:36.921+0000] {standard_task_runner.py:83} INFO - Job 682: Subtask get_categorias
+[2022-10-26T01:15:36.923+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-26T01:15:45.721+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.get_categorias manual__2022-10-26T00:49:05.987248+00:00 [running]> on host 83cd0ab98720
+[2022-10-26T01:15:46.635+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=get_categorias
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-26T00:49:05.987248+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-26T00:49:05.987248+00:00
+[2022-10-26T01:15:47.391+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-26T01:15:47.507+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=sales_datawarehouse, task_id=get_categorias, execution_date=20221026T004905, start_date=20221026T011536, end_date=20221026T011547
+[2022-10-26T01:15:47.621+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-26T01:15:47.712+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

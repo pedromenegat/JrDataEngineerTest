@@ -1,0 +1,24 @@
+[2022-10-26T00:33:57.469+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.insert_dimFuncionarios manual__2022-10-24T22:44:48.298392+00:00 [queued]>
+[2022-10-26T00:33:57.484+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: sales_datawarehouse.insert_dimFuncionarios manual__2022-10-24T22:44:48.298392+00:00 [queued]>
+[2022-10-26T00:33:57.484+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-26T00:33:57.485+0000] {taskinstance.py:1363} INFO - Starting attempt 2 of 2
+[2022-10-26T00:33:57.487+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-26T00:33:57.506+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): insert_dimFuncionarios> on 2022-10-24 22:44:48.298392+00:00
+[2022-10-26T00:33:57.511+0000] {standard_task_runner.py:54} INFO - Started process 3296 to run task
+[2022-10-26T00:33:57.516+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'sales_datawarehouse', 'insert_dimFuncionarios', 'manual__2022-10-24T22:44:48.298392+00:00', '--job-id', '581', '--raw', '--subdir', 'DAGS_FOLDER/sales_dw.py', '--cfg-path', '/tmp/tmpw4dz15zn']
+[2022-10-26T00:33:57.519+0000] {standard_task_runner.py:83} INFO - Job 581: Subtask insert_dimFuncionarios
+[2022-10-26T00:33:57.520+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/sales_dw.py
+[2022-10-26T00:33:58.552+0000] {task_command.py:384} INFO - Running <TaskInstance: sales_datawarehouse.insert_dimFuncionarios manual__2022-10-24T22:44:48.298392+00:00 [running]> on host 83cd0ab98720
+[2022-10-26T00:33:58.662+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pedromenegat
+AIRFLOW_CTX_DAG_ID=sales_datawarehouse
+AIRFLOW_CTX_TASK_ID=insert_dimFuncionarios
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-24T22:44:48.298392+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-24T22:44:48.298392+00:00
+[2022-10-26T00:33:58.966+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-26T00:33:59.007+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=sales_datawarehouse, task_id=insert_dimFuncionarios, execution_date=20221024T224448, start_date=20221026T003357, end_date=20221026T003359
+[2022-10-26T00:33:59.059+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-26T00:33:59.144+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
